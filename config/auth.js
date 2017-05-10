@@ -69,7 +69,7 @@ module.exports = {
     password: 'password',
     secret: Config.get('app.appKey'),
     options: {
-      // expiresIn: 60000,
+      expiresIn: '1h',
       // notBefore: 60000
     }
   },
